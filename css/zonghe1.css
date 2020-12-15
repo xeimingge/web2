@@ -186,7 +186,8 @@ body{
 .fenmian .banner>img{
 	display: block;
 	width: 1000px;
-	height: 500px;
+	height: 490px;
+	border: 5px outset #363636;
 	margin: 0 auto;
 }
 .SmallImg{
@@ -290,6 +291,60 @@ body{
 	text-decoration: line-through;
 }
 
+
+.lanmu{
+	height: 70px;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 22px 0 8px 0;
+	position: relative;
+}
+.lanmu>p{
+	float: left;
+	text-align: center;
+	border: outset 2px #f3b234 ;
+	font: bolder 40px '华文楷体' ;
+}
+.lanmu>ul{
+	float:left;
+	width: 400px;
+	margin-left: 300px;
+	padding-top:15px;  
+}
+.lanmu li{
+	font:bold 25px '华文楷体';
+	float: left;
+	padding-right: 68px;
+}
+.lanmu>ul .last{
+	padding-right: 0px;
+}
+.lanmu li>a{
+	color:#868686;
+}
+.lanmu li>a:hover{
+	color:#00A4FF;
+}
+.lanmu>a{
+	color:rgba(165,165,165,1);
+	position : absolute;
+	right: 35px;
+	bottom: 30px;
+}
+.lanmu>a:hover{
+	color: #00A4FF;
+}
+/* 硬笔软笔书法首张图片 */
+.class>.first{
+	width: 585px;
+	height: 330px;
+	padding: 0;
+}
+.class>.first img{
+	width:100%;
+	height: 100%;
+}
+/* 为何选择书行天下 */
 .publicity{
 	width: 1200px;
 	height: 300px;	
