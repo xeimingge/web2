@@ -1,0 +1,359 @@
+/*
+* @Author: 12699
+* @Date:   2020-06-08 19:37:00
+* @Last Modified by:   12699
+* @Last Modified time: 2020-06-11 13:41:06
+*/
+body{
+	background-color: #f3f5f7;
+	overflow-x: hidden;
+}
+/* 返回顶部 */
+#BackTop{
+	display: none;
+	width: 50px;
+	height: 50px;
+	position: fixed; 
+	right: 30px; 
+	bottom: 20px;
+}
+/* 登陆 */
+#land {
+	z-index: 1;
+	display: none;
+	width: 300px;
+	height: 350px;
+	margin: 0 auto;
+	outline: 5px outset #a0a0a0;
+	text-align: center;
+	background-color: cyan;
+	position: relative;
+}
+#closeLand{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:5px;
+	right: 5px;
+}
+#closeLand:hover{
+	border:solid 2px red;
+}
+#closeLand>img{
+	width: 15px;
+	height: 15px;
+}
+#land input{
+	display: inline-block;
+	height: 30px;
+}
+#land .first{
+	margin: 10px 0 20px 0;
+	text-align: center;
+	padding: 5px 0;
+	font:bolder 30px "华文楷体";
+}
+#land .one{
+	width: 200px;
+	margin: 5px 0;
+}
+#land .remember{
+	height: 20px;
+	margin-right: 20px;
+	text-align: right;
+}
+#land .remember input{
+	height: 15px;
+}
+
+#land .sub{
+	width: 53px;
+	height: 40px;
+	float: left;
+	background-color: #ccc;
+	margin: 18px 48px; 
+	border: 2px solid black;
+	font: bold 15px '华文楷体';
+}
+#land .sub:hover {
+	background-color: #a0a0a0;
+	color: white;
+}
+#land .blank{
+	margin: 0 auto;
+	width:  200px;
+	text-align: left;
+	font-size: 10px;
+	height: 20px;
+	color: grey;
+}
+/* 代替 */
+.replace{
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+
+}
+.top1{
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	z-index: 1;
+}
+.top{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.top>img{
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+.search{
+	float: left;
+	width: 450px;
+	height: 50px;
+	font-size: 14px;
+	margin: 20px 0 15px 100px;
+	border:4px outset #777777; 
+	border-right: 0;
+	outline-color: #777777; 
+}
+.top > .box .subimt {
+    float: left;
+ 	width: 50px;
+	height: 58px;
+    margin: 19.5px 0px;
+    background: url(../img/小标签/2.png) center center no-repeat ;
+    border: 0;
+    outline: 0;
+}
+.top > .box .subimt:hover{
+	box-shadow:0px 5px 5px 0px rgba(118,118,118,0.5);
+}
+.top>ul{
+	float: right;
+}
+.top>ul>li{
+	float: right;
+	width: 30px;
+	height: 50px;
+	margin: 10px 10px;
+	text-align: center;
+	padding: 5px;
+}
+.top>ul li img{
+	width: 30px;
+	height: 30px;
+}
+
+.top>ul a{
+	color: #777777; 
+	font-size: 15px;
+}
+.top>ul .left:hover{
+	outline: 3px solid #facd89;
+} 
+
+.top li a:hover{
+	color:#eb6100;
+}
+.welcome{
+	width: 100%;
+	font:30px '华文行楷';
+	font-weight: bolder;
+}
+#welcome{
+	margin: 10px 0 10px 0;
+	width: 280px;
+}
+
+.fenmian{
+	width: 100%;
+	height: 500px;
+	background:url(../img/背景.jpg);
+
+}
+.banner{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	/* z-index: 0; */
+}
+.fenmian .banner>img{
+	display: block;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+}
+.SmallImg{
+	display: inline-block;
+	width: 390px;
+	height: 50px;
+	position: absolute;
+	bottom:30px;
+	right: 120px;
+}
+.fenmian .SmallImg>img{
+	display: inline-block;
+	margin: 0;
+	width: 80px;
+	height: 50px;
+}
+.fenmian .SmallImg>img:hover{
+	outline: white 2px solid;
+}
+.tuijian{
+	width: 1200px;
+	margin: 0 auto;
+	height: 69px;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	position: relative;
+}
+.tuijian p{
+	width: 180px;
+	text-align: center;
+	font:bolder 40px '华文楷体' ;
+	padding: 2px;
+	border: outset 2px #f36134 ;
+}
+.tuijian>a{
+	color:rgba(165,165,165,1);
+	position : absolute;
+	right: 35px;
+	bottom: 30px;
+}
+.tuijian a:hover{
+	color:#00A4FF;
+}
+.class{
+	width: 1200px;
+	height: 330px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	background-color: #f3f5f7;
+
+}
+.class .box{
+	display: inline-block;
+	width: 257.5px;
+	height: 310px;
+	padding: 10px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+	float: left;
+	margin-right: 30px;
+	position: relative;
+}
+.class>.last{
+	margin-right: 0px;
+}
+.class .box>img{
+	width: 257.5px;
+	height:155px; 
+}
+.class .box>p{
+	height: 60px;
+	display: inline-block;
+	width:237.5px;
+	color:rgba(5,5,5,1);
+	font: bolder 25px '华文楷体';
+	line-height:30px; 
+	padding: 14px 10px 15px 10px ;
+	border-bottom: 1px solid #bfbfbf;
+
+}
+.class .box:hover{
+	outline: 5px solid #00A4FF;
+}
+.class .box>.people{
+	font-size: 13px;
+	color:#999999;
+	position: absolute;
+	bottom: 20px;
+	left: 25px;
+}
+.class .box .money{
+	color: #FF7C2D;
+	position: absolute;
+	font-size: 25px;
+	bottom: 20px;
+	right: 10px;
+}
+.class .box .money>span{
+	color: #999999;
+	font-size: 15px;
+	text-decoration: line-through;
+}
+
+.publicity{
+	width: 1200px;
+	height: 300px;	
+	margin: 0 auto;
+}
+.publicity .one{
+	height: 100px;
+	width: 1200px;
+	background:url(../img/bg-title.png) no-repeat center center;
+	text-align: center;
+	margin-top: 20px;
+}
+.publicity .one span{
+	display: inline-block;
+	font:  28px '华文行楷';
+	margin-top: 38px;
+}
+.publicity ul a img{
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+.publicity ul li{
+	float: left;
+	padding: 3px;
+	width: 245px;
+	height: 100px;
+	margin: 30px 0 0 40px;	
+}
+.publicity a span{
+	display: inline-block;
+	margin-top: 30px;
+	float: left;
+	color: #000;
+	font: bold 20px '黑体';
+}
+.publicity a p{
+	display: inline-block;
+	width: 160px;
+	float: left;
+	font:16px '黑体';
+	color: #777;
+}
+.publicity li:hover{
+	outline: 3px solid #f8b551;
+}
+
+
+.ending .line{
+	height:100px ;
+	width: 1200px;
+	margin:0 auto;
+	padding-top: 10px;
+	border-top:1px solid #bfbfbf;
+	text-align: center;
+}
+.ending .line a{
+	color:  #898989;
+}
+.ending .line a:hover{
+	color:  #00A4FF;
+}
+.ending .line p{
+	font:15px '华文楷体';
+	color:  #898989;
+}
+
