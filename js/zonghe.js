@@ -126,7 +126,7 @@ landbtn.onclick = function(){
     }else{
         alert("恭喜您，登录成功！")
         land.style.display = "none";
-        NowName = textname1.substring(0,3)+"~~~";
+        NowName = textname1.substring(0,3)+"·····";
         nowname.innerHTML=NowName;
         pass.value =null;
         textname.value =null;
